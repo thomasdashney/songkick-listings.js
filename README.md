@@ -78,13 +78,13 @@ The following code will get all of the show dates for "Snarky Puppy", render som
 	    artistId: 29793, // snarky puppy
 	    apiKey: 'my-songkick-api-key'
 	};
-	SongkickListings.init(config);
+	SongkickListings.load(config);
 </script>
 ```
 
 Configuration Options
 --------------------
-When calling `SongkickListings.init(config)`, the following config options must be specified:
+When calling `SongkickListings.load(config)`, the following config options must be specified:
 
 * `elementId` - The id of the element to dynamically insert the show listings into
 * `templateId` - The id of the `<script type="text/x-handlebars">` element containing the show listings template. This will be rendered with the fetched Songkick data and inserted into the element specified via `elementId`

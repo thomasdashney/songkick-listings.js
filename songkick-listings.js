@@ -9,7 +9,7 @@ var SongkickListings = {};
   var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 
               'Sep', 'Oct', 'Nov', 'Dec'];
 
-  SongkickListings.init = function(config) {
+  SongkickListings.load = function(config) {
     // check for config options presence
     var requiredConfig = ['elementId', 'templateId', 'artistId', 'apiKey'];
     var missingConfig = [];
