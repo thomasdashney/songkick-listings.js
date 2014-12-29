@@ -29,7 +29,7 @@ I plan to remove jQuery as a dependency in future--I welcome with open arms the 
 Usage Example
 -----------------------------
 
-The following code will get all of the show dates for "Snarky Puppy", render some HTML will the provided template, and inject it into the specified DOM element.
+The following code will get all of the show dates for "Snarky Puppy", render some HTML with the provided template, and inject it into the specified DOM element.
 
 ![](http://i.imgur.com/CU3l4yW.png)
 
