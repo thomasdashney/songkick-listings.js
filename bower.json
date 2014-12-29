@@ -1,0 +1,23 @@
+{
+  "name": "songkick-listings.js",
+  "version": "0.0.1",
+  "authors": [
+    "Thomas Dashney <tdashney@gmail.com>"
+  ],
+  "description": "A Javascript library for displaying Songkick concerts for an artist",
+  "main": "songkick-listings.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "songkick",
+    "api",
+    "listings",
+    "javascript"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "~2.0.0",
+    "jquery": "~2.1.3"
+  }
+}
